@@ -29,6 +29,7 @@ export AWS_DYNAMO_REGION
 export AWS_SECRET_ACCES_KEY
 export AWS_ACCESS_KEY_ID
 
+# start the server
 cd /var/nodejs
 docker run -e NODEJS_PORT=${NODEJS_PORT}\
     -e AWS_DYNAMO_REGION=${AWS_DYNAMO_REGION}\
