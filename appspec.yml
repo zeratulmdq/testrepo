@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/nodejs
+hooks:
+  BeforeInstall:
+    - location: ci/aws/install_dependencies.sh
+      timeout: 1200
+      runas: root
+  AfterInstall:
+    - location: ci/aws/after_install.sh
+      timeout: 1200
+      runas: root
+  ApplicationStart:
+    - location: ci/aws/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: ci/aws/stop_server.sh
+      timeout: 300
+      runas: root

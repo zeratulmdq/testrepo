@@ -1,0 +1,114 @@
+[
+    {
+        "firstName": "Jane",
+        "lastName": "Jackson",
+        "emails": [
+            "jane@jackson.com",
+            "janejackson@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Jonh",
+        "lastName": "Doe",
+        "emails": [
+            "john@doe.com",
+            "johndoe@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Martin",
+        "lastName": "Benvenuti",
+        "emails": [
+            "martin@benvenuti.com",
+            "martinbenvenuti@hotmail.com"
+        ]
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Aguinaga",
+        "emails": [
+            "alex@aguinaga.com",
+            "alex.aguinaga@yahoo.com"
+        ]
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Johnson",
+        "emails": [
+            "jack@johnson.com",
+            "jackjohnson@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Mary",
+        "lastName": "Mendes",
+        "emails": [
+            "mary@mendes.com",
+            "marymendes@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Mariano",
+        "lastName": "Selvaggi",
+        "emails": [
+            "mariano@selvaggi.com",
+            "mariano.selvaggi@whiteprompt.com"
+        ]
+    },
+    {
+        "firstName": "Gustavo",
+        "lastName": "Piperno",
+        "emails": [
+            "gustavo@piperno.com",
+            "gustavopiperno@pipa.com"
+        ]
+    },
+    {
+        "firstName": "Ariel",
+        "lastName": "Bellinzona",
+        "emails": [
+            "quilmes221@hotmail.com",
+            "ariel.b@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Taylor",
+        "lastName": "Otwell",
+        "emails": [
+            "taylor@laravel.com",
+            "taylor.otwell@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Evan",
+        "lastName": "You",
+        "emails": [
+            "evan@vue.com",
+            "evan@you.com"
+        ]
+    },
+    {
+        "firstName": "Janet",
+        "lastName": "Jackson",
+        "emails": [
+            "janet@jackson.com",
+            "janet@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Celine",
+        "lastName": "Dion",
+        "emails": [
+            "celine@dion.com",
+            "celinedion@gmail.com"
+        ]
+    },
+    {
+        "firstName": "Hillary",
+        "lastName": "Clinton",
+        "emails": [
+            "hillary@potus.com",
+            "hillary@clinton.com"
+        ]
+    }
+]
