@@ -5,7 +5,7 @@
   "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node dist/server.js",
+    "serve": "pm2 start dist/server.js",
     "dev": "babel-watch app/server.js",
     "build": "babel app -d dist --copy-files",
     "migrate": "node dist/migrations/migrate.js"
@@ -24,8 +24,8 @@
     "express": "^4.16.3",
     "graphql": "^0.13.2",
     "graphql-tools": "^3.0.4",
-    "mongoose": "^5.2.1",
     "node-uuid": "^1.4.8",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "winston": "^3.0.0"
   }
 }
