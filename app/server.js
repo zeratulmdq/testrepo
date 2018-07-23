@@ -7,7 +7,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import schema from './graphql/schema';
-import winstonLogger from './utils/logs/winston';
+import winstonLogger from './utils/winston/index';
 
 const PORT = process.env.NODEJS_PORT;
 const app = express();
