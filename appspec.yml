@@ -6,11 +6,11 @@ files:
 hooks:
   BeforeInstall:
     - location: ci/aws/install_dependencies.sh
-      timeout: 1200
+      timeout: 600
       runas: root
   AfterInstall:
     - location: ci/aws/after_install.sh
-      timeout: 1200
+      timeout: 600
       runas: root
   ApplicationStart:
     - location: ci/aws/start_server.sh
@@ -20,3 +20,8 @@ hooks:
     - location: ci/aws/stop_server.sh
       timeout: 300
       runas: root
+  BeforeAllowTraffic:
+    - location: ci/aws/before_allow_traffic.sh
+      timeout: 300
+      runas: root
+      sudo: true
