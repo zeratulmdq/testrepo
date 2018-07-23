@@ -20,8 +20,3 @@ hooks:
     - location: ci/aws/stop_server.sh
       timeout: 300
       runas: root
-  BeforeAllowTraffic:
-    - location: ci/aws/before_allow_traffic.sh
-      timeout: 300
-      runas: root
-      sudo: true
